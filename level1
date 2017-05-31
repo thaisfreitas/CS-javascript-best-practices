@@ -1,0 +1,43 @@
+//lvel 1 - adventure Time exercises
+
+//section 1 - 1
+var allPacked = false;
+var adventureTime;
+
+adventureTime = allPacked ? 'yes' : 'no';
+//the return for adventureTime will be 'no'
+
+//section 1 - 2
+var allPacked = true;
+var swordPolished = true;
+var adventureTime;
+
+adventureTime = allPacked && swordPolished ? 'yes' : 'no';
+// adventureTime will return 'yes'
+
+//section 1 - 3
+var allPacked = true;
+var readyToGo = true;
+var adventureTime;
+
+adventureTime = allPacked && readyToGo ?
+
+  function() {
+    return 'Adventure time is now!';
+  }()
+  :
+  function() {
+    return 'Adventuring has been postponed!';
+  }();
+// the fuction will return 'Adventure time is now!'
+
+//section 1 - 3
+var isHero = true;
+var character;
+
+if (isHero) {
+  character = 'Dhuun';
+} else {
+  character = 'Pesky Gnat';
+}
+> character = isHero ? 'Dhuun' : 'Pesky Gnat';
