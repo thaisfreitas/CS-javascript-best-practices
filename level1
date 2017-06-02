@@ -45,3 +45,13 @@ if (isHero) {
 //section 2 - contents in your pocket
 var pocketStuff = ['Dragon Tooth', 'Adventure Diary', 'Silver Tiger Coin'];
 var pocketContents = pocketStuff || [];
+
+//section 2 - the one who lerns
+var pocketStuff = ['Dragon Tooth', 'Adventure Diary', 'Silver Tiger Coin'];
+var cluesToThePast = pocketStuff || [];
+getMyIdentity(cluesToThePast);
+
+function getMyIdentity(memories) {
+  var identity = (memories.indexOf('Adventure Diary') >= 0) ? 'The One Who Learns' : undefined;
+  return identity || 'unknown';
+}
