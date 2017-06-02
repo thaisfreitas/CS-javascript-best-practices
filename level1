@@ -41,3 +41,7 @@ if (isHero) {
   character = 'Pesky Gnat';
 }
 > character = isHero ? 'Dhuun' : 'Pesky Gnat';
+
+//section 2 - contents in your pocket
+var pocketStuff = ['Dragon Tooth', 'Adventure Diary', 'Silver Tiger Coin'];
+var pocketContents = pocketStuff || [];
